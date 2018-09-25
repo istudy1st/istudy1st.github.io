@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>No Split Ends</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="pic/nosplit.png">    
+</head>
+<body>
+
+  <!-- NAVBAR -->    
+  <?php include('includes/header.php'); ?>    
+    
+  <!-- SHOWCASE SLIDER -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Unisex Family Salon</h1>
+              <p class="lead">We Provide Best Services</p>
+              <a href="contact.php" class="btn btn-danger btn-lg">Contact Us</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block mb-5">
+              <h1 class="display-3">Style With Us</h1>
+              <p class="lead">Get The Style You Deserve</p>
+              <a href="services.php" class="btn btn-primary btn-lg">Services</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Offer Assistance</h1>
+              <p class="lead">Need Anything? We are there for you.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- HOME ICON SECTION -->
+  <section id="home-icons" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mb-3 text-center">
+          <img src="pic/hair-cut.jpg" style="width: 200px;">
+          <h3>Hair Cut</h3>
+          <p>You're Only As Good As Your Last Haircut.</p>
+        </div>
+        <div class="col-md-3 mb-3 text-center">
+          <img src="pic/facial.jpg" style="width: 200px;">
+          <h3>Facial</h3>
+          <p>Great Skin Doesn't Happen By Chance. It Happens By Appointment.</p>
+        </div>
+        <div class="col-md-3 mb-3 text-center">
+          <img src="pic/manicure.jpg" style="width: 200px;">
+          <h3>Manicures</h3>
+          <p>Nothing Improves Your Mood Like A New Manicure.</p>
+        </div>
+        <div class="col-md-3 mb-3 text-center">
+          <img src="pic/pedicure.jpg" style="width: 200px;">
+          <h3>Pedicures</h3>
+          <p>You Know It's Time For A Pedicure When You Can Exfoliate One Foot With The Other One.</p>
+        </div>  
+      </div>
+    </div>
+  </section>
+
+  <!-- HOME HEADING SECTION -->
+  <section id="home-heading" class="p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-5">
+            <h1>Get Ready To Get Complete Change Over</h1>
+            <p class="d-none d-md-block">Get The Style That You Asked For!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INFO SECTION -->
+  <section id="info" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <h3>No Split Ends</h3>
+          <p>We Make You Look More Beautiful and Handsome.</p>
+          <a href="contact.php" class="btn btn-outline-danger btn-lg">Contact Us</a>
+        </div>
+        <div class="col-md-6">
+          <img src="pic/no-split-ends.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTO GALLERY -->
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <h1 class="text-center">Photo Gallery</h1>
+      <p class="text-center">Check out our photos</p>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/1" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="pic/photo-1.jpg" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/2" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="pic/photo-2.jpg" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/3" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="pic/photo-3.jpg" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/4" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="pic/photo-4.jpg" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/600/600/business/5" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="pic/photo-5.jpg" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/6" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="pic/photo-6.jpg" class="img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+  <!-- FOOTER -->    
+  <?php include('includes/footer.php'); ?>      
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>  
+  <script src="js/main.js"></script>
+</body>
+</html>
