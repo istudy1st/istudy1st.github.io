@@ -14,25 +14,7 @@
 <body>
 
   <!-- NAVBAR -->    
-    <nav class="navbar navbar-expand-sm navbar-dark">
-    <div class="container">
-      <a href="index.html" class="navbar-brand">No Split Ends</a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navNavbar"><span class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="navNavbar">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="services.html" class="nav-link">Services</a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>    
+  <?php include('includes/header.php'); ?>    
     
   <!-- SHOWCASE SLIDER -->
   <section id="showcase">
@@ -48,7 +30,7 @@
             <div class="carousel-caption d-none d-sm-block text-right mb-5">
               <h1 class="display-3">Unisex Family Salon</h1>
               <p class="lead">We Provide Best Services</p>
-              <a href="contact.html" class="btn btn-danger btn-lg">Contact Us</a>
+              <a href="contact.php" class="btn btn-danger btn-lg">Contact Us</a>
             </div>
           </div>
         </div>
@@ -58,7 +40,7 @@
             <div class="carousel-caption d-none d-sm-block mb-5">
               <h1 class="display-3">Style With Us</h1>
               <p class="lead">Get The Style You Deserve</p>
-              <a href="services.html" class="btn btn-primary btn-lg">Services</a>
+              <a href="services.php" class="btn btn-primary btn-lg">Services</a>
             </div>
           </div>
         </div>
@@ -132,7 +114,7 @@
         <div class="col-md-6 align-self-center">
           <h3>No Split Ends</h3>
           <p>We Make You Look More Beautiful and Handsome.</p>
-          <a href="contact.html" class="btn btn-outline-danger btn-lg">Contact Us</a>
+          <a href="contact.php" class="btn btn-outline-danger btn-lg contact">Contact Us</a>
         </div>
         <div class="col-md-6">
           <img src="pic/no-split-ends.jpg" class="img-fluid" alt="">
@@ -146,42 +128,48 @@
     <div class="container">
       <h1 class="text-center">Photo Gallery</h1>
       <p class="text-center">Check out our photos</p>
+        <center>
       <div class="row mb-4">
-        <div class="col-md-4">          
-            <img src="pic/photo-1.jpg" class="img-fluid">          
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/1" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="pic/photo-1.jpg" class="img-fluid">
+          </a>
         </div>
-        <div class="col-md-4">          
-            <img src="pic/photo-2.jpg" class="img-fluid">          
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/2" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="pic/photo-2.jpg" class="img-fluid">
+          </a>
         </div>
-        <div class="col-md-4">          
-            <img src="pic/photo-3.jpg" class="img-fluid">          
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/3" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="pic/photo-3.jpg" class="img-fluid">
+          </a>
         </div>
       </div>
 
       <div class="row mb-4">
-        <div class="col-md-4">          
-            <img src="pic/photo-4.jpg" class="img-fluid">          
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/4" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="pic/photo-4.jpg" class="img-fluid">
+          </a>
         </div>
-        <div class="col-md-4">          
-            <img src="pic/photo-5.jpg" class="img-fluid">          
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/600/600/business/5" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="pic/photo-5.jpg" class="img-fluid">
+          </a>
         </div>
-        <div class="col-md-4">          
-            <img src="pic/photo-6.jpg" class="img-fluid">          
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/6" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="pic/photo-6.jpg" class="img-fluid">
+          </a>
         </div>
       </div>
+        </center>    
     </div>
   </section>
     
   <!-- FOOTER -->    
-    <footer id="main-footer" class="text-center p-4">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <p>Copyright 2018 &copy; No Split Ends</p>
-        </div>
-      </div>
-    </div>
-  </footer>      
+  <?php include('includes/footer.php'); ?>      
 
 
 
